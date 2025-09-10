@@ -234,6 +234,51 @@
       "hash": "16ff69ebd2d566756faa34b65d7b81bbf7ff4fe79af737f56cced4da9a57e10e",
       "last_updated": "2025-09-10T03:10:06.253244",
       "source": "claude-code-repository"
+    },
+    "enterprise-faq.md": {
+      "description": "Most common technical questions customers ask during Claude Code pilot/implementation",
+      "hash": "6e923978ddc327e52d0e7a98f27f9210b61e02c05d04af6647d1652c954d3930",
+      "last_updated": "2025-09-10T21:53:00.000000",
+      "source": "internal-documentation",
+      "tags": ["enterprise", "faq", "technical", "troubleshooting"]
+    },
+    "team-rollout-guide.md": {
+      "description": "Internal team rollout guide for Claude Code sales and implementation",
+      "hash": "9e2b06137cf6b9cd53d7f9b8eac880a4025d531ebcb50c15521f1ee564ba4ca1",
+      "last_updated": "2025-09-10T21:56:00.000000", 
+      "source": "internal-documentation",
+      "tags": ["rollout", "sales", "pilot", "enterprise"]
+    },
+    "anthropic-teams-usage.md": {
+      "description": "How Anthropic teams use Claude Code across different functions and workflows",
+      "hash": "806b8912dd34b2874da0010afda386eb84adc8563c03cf067197ed27f8e12db8",
+      "last_updated": "2025-09-10T21:58:00.000000",
+      "source": "public-content",
+      "original_url": "https://www.anthropic.com/news/how-anthropic-teams-use-claude-code",
+      "tags": ["usage", "teams", "workflows", "examples"]
+    },
+    "research-software-development-impact.md": {
+      "description": "Research findings on Claude Code's impact on software development patterns and industry trends",
+      "hash": "57c73fcc8531780aa189cf08a1be442f66c53013eb6c5deb674b07cd52a8d5a3",
+      "last_updated": "2025-09-10T21:57:00.000000",
+      "source": "public-content", 
+      "original_url": "https://www.anthropic.com/research/impact-software-development",
+      "tags": ["research", "impact", "automation", "industry"]
+    },
+    "engineering-best-practices.md": {
+      "description": "Engineering best practices for using Claude Code effectively in development workflows",
+      "hash": "1aabb1cacad713149344bf6334de132c1319003e9934816f7ec6ed75339a1e85",
+      "last_updated": "2025-09-10T21:58:00.000000",
+      "source": "public-content",
+      "original_url": "https://www.anthropic.com/engineering/claude-code-best-practices", 
+      "tags": ["best-practices", "engineering", "workflow", "setup"]
+    },
+    "gtm-workflows.md": {
+      "description": "Essential workflows and tools for Go-to-Market teams using Claude Code",
+      "hash": "6697f6eb5b877da49c5dab55200dfb2a4a304f8f32461421b789b76a1ed32fbe",
+      "last_updated": "2025-09-10T21:45:00.000000",
+      "source": "custom-documentation",
+      "tags": ["gtm", "sales", "marketing", "workflows", "integrations"]
     }
   },
   "fetch_metadata": {
@@ -245,12 +290,12 @@
     "failed_pages": [],
     "sitemap_url": "https://docs.anthropic.com/sitemap.xml",
     "base_url": "https://docs.anthropic.com",
-    "total_files": 39,
+    "total_files": 45,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-09-10T21:02:31.155598",
-  "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
-  "github_repository": "ericbuess/claude-code-docs",
+  "last_updated": "2025-09-10T21:58:31.000000",
+  "base_url": "https://raw.githubusercontent.com/jschwar2552/claude-code-docs/main/docs/",
+  "github_repository": "jschwar2552/claude-code-docs",
   "github_ref": "main",
-  "description": "Claude Code documentation manifest. Keys are filenames, append to base_url for full URL."
+  "description": "Enhanced Claude Code documentation manifest with internal team guidance, best practices, and research insights. Keys are filenames, append to base_url for full URL."
 }
