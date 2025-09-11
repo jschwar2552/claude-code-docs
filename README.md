@@ -5,15 +5,17 @@
 
 ## Purpose
 
-This system enables **agentic search** within Claude Code by providing local access to curated documentation. It allows Claude to quickly reference verified information when responding to questions about Claude Code usage, troubleshooting, and implementation best practices.
+This system gives **Claude Code meta-knowledge about itself** - like giving a mechanic their own repair manual built right into the garage. Instead of Claude having to guess or search the web when you ask "How do I fix my hooks?", it can instantly reference its own comprehensive knowledge base and troubleshoot issues on the spot.
 
 ### Why This Exists
 
-When working with Claude Code, users often need quick answers to common questions: "How do I set up hooks?" "What's the difference between MCP and direct tool integration?" "How do I structure my CLAUDE.md file?" Rather than requiring manual searches through documentation or waiting for human responses, this system lets Claude provide immediate, accurate answers from approved sources.
+Think of it as **Claude Code developing introspection**. When you're stuck with "My MCP server isn't connecting" or "How do I structure my CLAUDE.md?", Claude can now look inward at its own documentation and provide immediate, accurate guidance - like a developer having perfect memory of every technical detail about their own codebase.
+
+**The problem this solves**: Instead of Claude saying "I'd need to search for current information about Claude Code..." it can now say "Based on the official Claude Code documentation, here's exactly how to fix that."
 
 The documentation includes:
 - **All official Claude Code documentation** (auto-updating from anthropic.com)
-- **Approved internal resources** for GTM and product communications teams
+- **Approved internal resources** for GTM and product communications teams  
 - **Verified troubleshooting guides** and implementation patterns
 
 ## How It Works
