@@ -47,12 +47,45 @@ All content from [docs.anthropic.com/claude-code](https://docs.anthropic.com/en/
 
 ### Enhanced Resources
 Additional approved content for team and customer use:
-- **Enterprise FAQ**: Common technical questions from customer implementations
-- **Team Rollout Guide**: Internal process guidance for successful adoption
-- **Engineering Best Practices**: Proven development workflow patterns
-- **Research Insights**: Data on Claude Code's impact on software development
-- **GTM Workflows**: Sales and marketing team integration patterns
-- **Anthropic Usage Examples**: How our internal teams use Claude Code
+
+- **Enterprise FAQ** (`/docs enterprise-faq`)
+  - Common technical questions from customer implementations and pilots
+  - Troubleshooting for Opus access, Visual Studio integration, SSO setup
+  - Security and compliance concerns with detailed responses
+  - Cost management and usage optimization guidance
+  - Authentication issues and API configuration problems
+
+- **Team Rollout Guide** (`/docs team-rollout-guide`)
+  - Complete sales process framework for Claude Code opportunities
+  - Pilot engagement strategies and success metrics
+  - Competitive positioning against GitHub Copilot and Cursor
+  - Objection handling for security, cost, and integration concerns
+  - ROI calculation frameworks and business value messaging
+
+- **Engineering Best Practices** (`/docs engineering-best-practices`)
+  - CLAUDE.md file structure and configuration patterns
+  - Effective workflow strategies for different development scenarios
+  - Testing patterns and debugging techniques with Claude Code
+  - Advanced features like hooks, MCP servers, and custom integrations
+  - Performance optimization and context management
+
+- **Research Insights** (`/docs research-software-development-impact`)
+  - Quantitative data on Claude Code's impact on development velocity
+  - User behavior patterns: automation vs augmentation usage
+  - Industry adoption trends and demographic analysis
+  - Productivity metrics and workflow transformation patterns
+
+- **GTM Workflows** (`/docs gtm-workflows`)
+  - Salesforce MCP integration for customer tracking and reporting
+  - Google Workspace automation for proposal and content generation
+  - BigQuery integration for usage analytics and business intelligence
+  - Sales enablement and marketing automation workflows
+
+- **Anthropic Usage Examples** (`/docs anthropic-teams-usage`)
+  - Real examples from Anthropic engineering, product, and research teams
+  - Codebase navigation and legacy code modernization patterns
+  - Testing automation and debugging workflow examples
+  - Cross-team collaboration and knowledge sharing practices
 
 ## Installation
 
