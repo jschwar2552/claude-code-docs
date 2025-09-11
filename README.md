@@ -119,18 +119,23 @@ curl -fsSL https://raw.githubusercontent.com/jschwar2552/claude-code-docs/main/i
 
 ## Technical Details
 
-- **Installation**: Installs to `~/.claude-code-docs` with `/docs` slash command
-- **Auto-updating**: Official docs sync automatically, preserves custom content
-- **Platform support**: macOS and Linux (Windows not yet supported)
-- **Dependencies**: git, jq, curl (usually pre-installed)
-- **Architecture**: Local files + git-based updates, no external API calls
+**Why Local Documentation vs Web Fetch?**
+- **Speed**: Reading from local files (~0.1s) vs web fetches (2-5s per request)
+- **Reliability**: Works offline, no API rate limits or network issues
+- **Context preservation**: Claude can reference multiple docs without separate API calls
+- **Search capability**: Full-text search across all documentation instantly
 
-## System Requirements
+**How It Works:**
+- **Python scraper**: Runs every 3 hours via GitHub Actions to fetch latest docs from anthropic.com
+- **Local installation**: Documents stored at `~/.claude-code-docs` with `/docs` slash command
+- **Auto-sync**: Git-based updates preserve custom content while syncing official changes
+- **Instant access**: Claude reads directly from local markdown files using standard Read tool
 
-- **Claude Code**: Must be installed and configured
-- **Operating System**: macOS or Linux  
-- **Dependencies**: git, jq, curl (typically pre-installed)
-- **Disk Space**: ~50MB for complete documentation
+**Architecture:**
+- Official docs: Automatically scraped from docs.anthropic.com and committed to repo
+- Enhanced content: Version-controlled alongside official docs
+- Distribution: Single git repository with installer script
+- Updates: Pull-based sync preserves local modifications
 
 ## Updating
 
