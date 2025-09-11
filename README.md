@@ -125,26 +125,11 @@ Or manually:
 ~/.claude-code-docs/uninstall.sh
 ```
 
-## Distribution
 
-This system is designed for:
-- **Internal Anthropic teams**: Enhanced productivity and consistent responses
-- **Customer onboarding**: Self-service documentation and Q&A
-- **Partner enablement**: Comprehensive reference for implementation support
+## Technical Notes
 
-## Technical Architecture
+Based on [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) with additional curated content and improved integration.
 
-Based on [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) with:
-- Enhanced content management and version control
-- Improved search and categorization
-- Custom content integration while preserving official doc updates
-- Streamlined installation and distribution
-
-## Support
-
-- **GitHub Issues**: [Report issues or request features](https://github.com/jschwar2552/claude-code-docs/issues)
-- **Original System**: [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs)
-- **Official Documentation**: [docs.anthropic.com/claude-code](https://docs.anthropic.com/en/docs/claude-code)
 
 ---
 
