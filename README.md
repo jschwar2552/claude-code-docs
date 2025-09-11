@@ -89,14 +89,31 @@ Additional approved content for team and customer use:
 
 ## Installation
 
-### Option 1: Direct from GitHub (Recommended)
+**Prerequisites**: You must have Claude Code installed and working on your system.
+
+### Option 1: One-Command Install (Recommended)
+Open your terminal and run:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jschwar2552/claude-code-docs/main/install.sh | bash
 ```
+This will:
+- Install documentation to `~/.claude-code-docs/`
+- Create the `/docs` command in Claude Code
+- Set up auto-updates
 
-### Option 2: Download and Install
-1. Download the latest release zip
-2. Extract and run `./install.sh`
+### Option 2: Manual Install from Zip
+1. Download the repository as a zip file
+2. Extract it and navigate to the folder
+3. Run the installer:
+```bash
+cd claude-code-docs-main
+./install.sh
+```
+
+**After installation:**
+1. Restart Claude Code (important - needed for the `/docs` command to work)
+2. Test it: type `/docs` to see all available topics
+3. Try: `/docs hooks` or `/docs enterprise-faq`
 
 ## Usage Examples
 
