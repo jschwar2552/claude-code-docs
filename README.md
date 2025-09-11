@@ -89,31 +89,28 @@ Additional approved content for team and customer use:
 
 ## Installation
 
-**Prerequisites**: You must have Claude Code installed and working on your system.
+Claude Code can install this documentation system automatically. Simply ask Claude:
 
-### Option 1: One-Command Install (Recommended)
-Open your terminal and run:
+> "Can you install the enhanced Claude Code documentation system from https://github.com/jschwar2552/claude-code-docs?"
+
+Claude will:
+1. Run the installer: `curl -fsSL https://raw.githubusercontent.com/jschwar2552/claude-code-docs/main/install.sh | bash`
+2. Install documentation to `~/.claude-code-docs/`  
+3. Create the `/docs` slash command
+4. Set up automatic updates
+5. Verify the installation works
+
+**Manual installation:**
+If you prefer to run the command yourself:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jschwar2552/claude-code-docs/main/install.sh | bash
 ```
-This will:
-- Install documentation to `~/.claude-code-docs/`
-- Create the `/docs` command in Claude Code
-- Set up auto-updates
 
-### Option 2: Manual Install from Zip
-1. Download the repository as a zip file
-2. Extract it and navigate to the folder
-3. Run the installer:
-```bash
-cd claude-code-docs-main
-./install.sh
-```
-
-**After installation:**
-1. Restart Claude Code (important - needed for the `/docs` command to work)
-2. Test it: type `/docs` to see all available topics
-3. Try: `/docs hooks` or `/docs enterprise-faq`
+**Testing after installation:**
+- `/docs` - List all available topics
+- `/docs hooks` - Read official hooks documentation  
+- `/docs enterprise-faq` - Access enhanced technical FAQ
+- `/docs -t` - Check documentation sync status
 
 ## Usage Examples
 
