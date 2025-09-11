@@ -3,8 +3,6 @@
 [![Last Update](https://img.shields.io/github/last-commit/jschwar2552/claude-code-docs/main.svg?label=docs%20updated)](https://github.com/jschwar2552/claude-code-docs/commits/main)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)](https://claude.ai/code)
 
-*Created by Jason Schwartz at Anthropic*
-
 ## Purpose
 
 This system enables **agentic search** within Claude Code by providing local access to curated documentation. It allows Claude to quickly reference verified information when responding to questions about Claude Code usage, troubleshooting, and implementation best practices.
